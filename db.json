@@ -7,5 +7,8 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "nsn": {
+	"views": [{ id: 'testId', name: 'viewName', data: ['OVERVIEW', 'IN-TRANSIT'] }]
   }
 }
