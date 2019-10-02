@@ -8,35 +8,28 @@
 	"profile": {
 		"name": "typicode"
 	},
-	"views": {
-		"nsn": {
-			"context": {
-				"views": [
-					{
-						"id": "testId",
-						"name": "viewName",
-						"description": "This is a test",
-						"data": [
-							"OVERVIEW",
-							"IN-TRANSIT"
-						]
-					},
-					{
-						"id": "testId2",
-						"name": "viewName2",
-						"description": "This is another view",
-						"data": [
-							"OVERVIEW",
-							"IN-TRANSIT",
-							"EXPRESS"
-						]
-					}
-				],
-				"userId": "jcorns"
+	"nsn": {
+		"views": [
+			{
+				"id": "testId",
+				"name": "viewName",
+				"description": "This is a test",
+				"data": [
+					"OVERVIEW",
+					"IN-TRANSIT"
+				]
+			},
+			{
+				"id": "testId2",
+				"name": "viewName2",
+				"description": "This is another view",
+				"data": [
+					"OVERVIEW",
+					"IN-TRANSIT",
+					"EXPRESS"
+				]
 			}
-		}
-	},
-	"another": {
-		"id": 4
+		],
+		"userId": "jcorns"
 	}
 }
