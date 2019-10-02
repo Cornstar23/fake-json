@@ -1,15 +1,35 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "nsn": {
-	"views": [{ "id": "testId", "name": "viewName", "data": ["OVERVIEW", "IN-TRANSIT"] }],
-	"userId": "jcorns"
-  }
+	"posts": [
+		{
+			"id": 1,
+			"title": "hello"
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	},
+	"nsn": {
+		"views": [
+			{
+				"id": "testId",
+				"name": "viewName",
+				"description": "This is a test",
+				"data": [
+					"OVERVIEW",
+					"IN-TRANSIT"
+				]
+			},
+			{
+				"id": "testId2",
+				"name": "viewName2",
+				"description": "This is another view",
+				"data": [
+					"OVERVIEW",
+					"IN-TRANSIT",
+					"EXPRESS"
+				]
+			}
+		],
+		"userId": "jcorns"
+	}
 }
